@@ -9,11 +9,11 @@ logger:
 
 api:
   encryption:
-    key: "t5RG2x8beXV0G6HgdrF0q7ZK72NFpHL9YCCton/tNn8="
+    key: "[encryption key here]"
 
 ota:
   - platform: esphome
-    password: "0ca5b3999b982261b3a3de1b98c9b5de"
+    password: "[ota password here]"
 
 wifi:
   ssid: !secret wifi_ssid
@@ -21,7 +21,7 @@ wifi:
   min_auth_mode: WPA2
   ap:
     ssid: "Watermeter Fallback Hotspot"
-    password: "Zbi6Acn5qiFs"
+    password: "[fallback password here]"
 
 captive_portal:
 
